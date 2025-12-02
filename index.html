@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZTAD - Download Multi Platform App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="bg-linear-to-br from-blue-50 to-indigo-100 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <!-- Header -->
+        <header class="text-center mb-12">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="text-xl font-bold text-gray-800 mb-2 flex items-center justify-center gap-1">
+                    <img src="./logo.png" alt="ZTAD Logo" class="w-8 h-8"> <span>ZTAD</span>
+                </div>
+                <p class="text-xl text-gray-600">Agency Management System</p>
+                <div class="mt-4 flex justify-center gap-4">
+                    <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-semibold">
+                        <i class="fas fa-check-circle mr-1"></i>Version 1.0.0
+                    </span>
+                    <span class="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-semibold">
+                        <i class="fas fa-globe mr-1"></i>Multi Platform
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Download Section -->
+        <main class="bg-white rounded-2xl shadow-xl p-8 mb-8">
+            <div class="text-center mb-8">
+                <h2 class="text-2xl font-bold text-gray-800 mb-4">Download ZTAD</h2>
+                <p class="text-gray-600 mb-6">Get the latest version of ZTAD for your platform</p>
+
+                <!-- Platform Download Buttons -->
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <!-- Android -->
+                    <div class="bg-green-50 p-6 rounded-xl border-2 border-green-200">
+                        <i class="fas fa-android text-4xl text-green-600 mb-3"></i>
+                        <h3 class="font-bold text-gray-800 mb-2">Android</h3>
+                        <p class="text-sm text-gray-600 mb-4">Android 7.0+ (API 24+)</p>
+                        <a href="https://github.com/Azemchap/ztad-registration/releases/download/v1.0.0/ztad-signed.apk"
+                            class="inline-block bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg transition-all transform hover:scale-105 shadow">
+                            <i class="fas fa-download mr-2"></i>
+                            Download APK
+                        </a>
+                        <p class="text-xs text-gray-500 mt-2">~50MB</p>
+                    </div>
+
+                    <!-- Windows -->
+                    <div class="bg-blue-50 p-6 rounded-xl border-2 border-blue-200">
+                        <i class="fas fa-windows text-4xl text-blue-600 mb-3"></i>
+                        <h3 class="font-bold text-gray-800 mb-2">Windows</h3>
+                        <p class="text-sm text-gray-600 mb-4">Windows 10/11 x64</p>
+                        <div class="space-y-2">
+                            <a href="https://github.com/Azemchap/ztad-registration/releases/download/v1.0.0/ZTAD_1.0.0_x64-setup.exe"
+                                class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg text-sm transition-all transform hover:scale-105 shadow w-full">
+                                <i class="fas fa-download mr-2"></i>
+                                .exe Installer
+                            </a>
+                            <a href="https://github.com/Azemchap/ztad-registration/releases/download/v1.0.0/ZTAD_1.0.0_x64_en-US.msi"
+                                class="inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg text-sm transition-all transform hover:scale-105 shadow w-full">
+                                <i class="fas fa-download mr-2"></i>
+                                .msi Package
+                            </a>
+                        </div>
+                        <p class="text-xs text-gray-500 mt-2">~60MB</p>
+                    </div>
+
+                    <!-- macOS/Linux (Coming Soon) -->
+                    <div class="bg-gray-50 p-6 rounded-xl border-2 border-gray-200 opacity-75">
+                        <i class="fas fa-desktop text-4xl text-gray-400 mb-3"></i>
+                        <h3 class="font-bold text-gray-800 mb-2">macOS/Linux</h3>
+                        <p class="text-sm text-gray-600 mb-4">Coming Soon</p>
+                        <div class="bg-gray-300 text-gray-500 font-bold py-2 px-4 rounded-lg text-sm">
+                            <i class="fas fa-clock mr-2"></i>
+                            In Development
+                        </div>
+                        <p class="text-xs text-gray-500 mt-2">Coming Soon</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Installation Instructions -->
+            <div class="border-t pt-8">
+                <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                    <i class="fas fa-cog text-blue-600 mr-2"></i>Installation Instructions
+                </h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h4 class="font-semibold text-gray-700 mb-2">Android</h4>
+                        <ol class="text-sm text-gray-600 list-decimal list-inside space-y-1">
+                            <li>Enable "Install from unknown sources" in Settings</li>
+                            <li>Download the APK file</li>
+                            <li>Tap the APK to install</li>
+                        </ol>
+                    </div>
+                    <div class="bg-gray-50 p-4 rounded-lg">
+                        <h4 class="font-semibold text-gray-700 mb-2">Windows</h4>
+                        <ol class="text-sm text-gray-600 list-decimal list-inside space-y-1">
+                            <li>Download .exe or .msi installer</li>
+                            <li>Run the installer as Administrator</li>
+                            <li>Follow the installation wizard</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- Features Section -->
+        <section class="bg-white rounded-2xl shadow-xl p-8 mb-8">
+            <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">
+                <i class="fas fa-star text-yellow-500 mr-2"></i>Key Features
+            </h3>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="text-center">
+                    <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-project-diagram text-blue-600 text-xl"></i>
+                    </div>
+                    <h4 class="font-semibold text-gray-800">Project Management</h4>
+                    <p class="text-sm text-gray-600">Track projects and tasks efficiently</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-green-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-users text-green-600 text-xl"></i>
+                    </div>
+                    <h4 class="font-semibold text-gray-800">Team Collaboration</h4>
+                    <p class="text-sm text-gray-600">Work together with your team</p>
+                </div>
+                <div class="text-center">
+                    <div class="bg-purple-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-chart-line text-purple-600 text-xl"></i>
+                    </div>
+                    <h4 class="font-semibold text-gray-800">Financial Tracking</h4>
+                    <p class="text-sm text-gray-600">Monitor budgets and expenses</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Requirements -->
+        <section class="bg-white rounded-2xl shadow-xl p-8 mb-8">
+            <h3 class="text-xl font-semibold text-gray-800 mb-4">
+                <i class="fas fa-info-circle text-blue-600 mr-2"></i>System Requirements
+            </h3>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <h4 class="font-semibold text-gray-700 mb-2">Android</h4>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Android 7.0 (API 24) or higher</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>50MB free storage space</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Internet connection required</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold text-gray-700 mb-2">Windows</h4>
+                    <ul class="text-sm text-gray-600 space-y-1">
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>Windows 10/11 x64</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>100MB free storage space</li>
+                        <li><i class="fas fa-check text-green-500 mr-2"></i>2GB RAM recommended</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center text-gray-600">
+            <p class="mb-2">
+                <i class="fab fa-github mr-2"></i>
+                <a href="https://github.com/Azemchap/ztad-registration" class="text-blue-600 hover:underline">View on
+                    GitHub</a>
+            </p>
+            <p class="text-sm">© 2025 ZTAD. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Update Notification Script -->
+    <script>
+        // Check for updates
+        async function checkForUpdates() {
+            try {
+                const response = await fetch('https://api.github.com/repos/Azemchap/ztad-registration/releases/latest');
+                const release = await response.json();
+
+                console.log('Latest release:', release.tag_name);
+
+                // You can add update notification logic here
+                if (release.tag_name !== 'v1.0.0') {
+                    console.log('New version available!');
+                }
+            } catch (error) {
+                console.log('Could not check for updates');
+            }
+        }
+
+        // Check for updates when page loads
+        document.addEventListener('DOMContentLoaded', checkForUpdates);
+    </script>
+</body>
+
+</html>
